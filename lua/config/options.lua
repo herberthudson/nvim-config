@@ -7,3 +7,4 @@ vim.wo.foldexpr = "nvim_treesitter#foldexpr()"
 
 -- Set fold opening
 vim.wo.foldlevel = 99
+vim.wo.wrap = true
