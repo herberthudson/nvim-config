@@ -4,4 +4,5 @@ return {
   keys = {
     { "<leader>gb", "<cmd>GitBlameToggle<cr>", desc = "Git Blame" },
   },
+  event = "BufReadPre",
 }
