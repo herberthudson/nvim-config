@@ -9,3 +9,5 @@ vim.wo.foldexpr = "nvim_treesitter#foldexpr()"
 vim.wo.foldlevel = 99
 vim.wo.wrap = true
 vim.g.editorconfig = true
+
+vim.api.nvim_set_option("clipboard", "unnamedplus")
