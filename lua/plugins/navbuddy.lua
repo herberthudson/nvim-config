@@ -8,6 +8,7 @@ return {
       "numToStr/Comment.nvim", -- Optional
       "nvim-telescope/telescope.nvim",
     },
+    keys = { { "<leader>cn", "<cmd>Navbuddy<cr>", desc = "Navbuddy" } },
   },
   {
     "neovim/nvim-lspconfig",
