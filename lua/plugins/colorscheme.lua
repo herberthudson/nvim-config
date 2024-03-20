@@ -1,5 +1,13 @@
 return {
   {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "dracula",
+      background_color = "#000000",
+    },
+  },
+  -- doom-one
+  {
     "NTBBloodbath/doom-one.nvim",
     setup = function()
       -- Add color to cursor
@@ -33,10 +41,12 @@ return {
       vim.g.doom_one_plugin_lspsaga = false
     end,
   },
-  -- {
-  --   "LazyVim/LazyVim",
-  --   opts = {
-  --     colorscheme = "doom-one",
-  --   },
-  -- },
+  -- gruvbox
+  { "ellisonleao/gruvbox.nvim" },
+  -- vim-monokai-tasty
+  { "patstockwell/vim-monokai-tasty" },
+  -- oceanic-next
+  { "mhartington/oceanic-next" },
+  -- dracula
+  { "Mofiqul/dracula.nvim" }
 }
