@@ -2,9 +2,12 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "dracula",
+      colorscheme = "zephyr",
       background_color = "#000000",
     },
+    require("notify").setup({
+      background_colour = "#000000",
+    })
   },
   -- doom-one
   {
@@ -50,8 +53,9 @@ return {
   -- dracula
   {
     "Mofiqul/dracula.nvim",
-    opts = {
-      background_color = "#000000"
-    }
-  }
+  },
+  -- zephyr
+  {
+    "glepnir/zephyr-nvim"
+  },
 }

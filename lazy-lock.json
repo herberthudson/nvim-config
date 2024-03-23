@@ -101,5 +101,6 @@
   "vscode-js-debug": { "branch": "main", "commit": "19cd30297dc05b7a7fa9d1d02a8e9dfc1749362e" },
   "which-key.nvim": { "branch": "main", "commit": "4433e5ec9a507e5097571ed55c02ea9658fb268a" },
   "window-picker": { "branch": "main", "commit": "41cfaa428577c53552200a404ae9b3a0b5719706" },
-  "yanky.nvim": { "branch": "main", "commit": "7c5cbf0122ff2dfbb6a92f14885894f65949cc8b" }
+  "yanky.nvim": { "branch": "main", "commit": "7c5cbf0122ff2dfbb6a92f14885894f65949cc8b" },
+  "zephyr-nvim": { "branch": "main", "commit": "7fd86b7164442d3b5ec2c81b2694d040e716b5cf" }
 }
