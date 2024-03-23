@@ -11,3 +11,16 @@ vim.wo.wrap = true
 vim.g.editorconfig = true
 
 vim.api.nvim_set_option("clipboard", "unnamedplus")
+
+vim.g.clipboard = {
+  name = "xsel_override",
+  copy = {
+    ["+"] = "xsel --input --clipboard",
+    ["*"] = "xsel --input --primary",
+  },
+  paste = {
+    ["+"] = "xsel --output --clipboard",
+    ["*"] = "xsel --output --primary"
+  },
+  cache_enabled = 1,
+}
