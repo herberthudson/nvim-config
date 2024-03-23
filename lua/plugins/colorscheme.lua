@@ -48,5 +48,10 @@ return {
   -- oceanic-next
   { "mhartington/oceanic-next" },
   -- dracula
-  { "Mofiqul/dracula.nvim" }
+  {
+    "Mofiqul/dracula.nvim",
+    opts = {
+      background_color = "#000000"
+    }
+  }
 }
