@@ -2,12 +2,12 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "zephyr",
+      colorscheme = "onedark",
       background_color = "#000000",
     },
     require("notify").setup({
       background_colour = "#000000",
-    })
+    }),
   },
   -- doom-one
   {
@@ -56,6 +56,14 @@ return {
   },
   -- zephyr
   {
-    "glepnir/zephyr-nvim"
+    "glepnir/zephyr-nvim",
+  },
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
+    "navarasu/onedark.nvim",
   },
 }
